@@ -98,3 +98,74 @@ CI/CD (Continuous Integration / Continuous Deployment) automates code building, 
 - **GitHub Actions** for automated builds/tests.  
 - **Docker** for consistent packaging.  
 - **AWS/GCP/Azure Pipelines** for production deployment.
+## UI/UX Design Planning
+
+### Design Goals
+- Provide a simple and intuitive booking experience.  
+- Ensure responsiveness across devices (desktop, tablet, mobile).  
+- Prioritize accessibility (clear typography, sufficient contrast, alt text for images).  
+- Maintain visual consistency (color palette, spacing, component styles).  
+
+### Key Features
+- Browse property listings with filtering and sorting options.  
+- View detailed information for a property (photos, description, reviews, pricing).  
+- Simple checkout flow to complete a booking with minimal friction.  
+
+### Primary Pages
+| Page | Description |
+|------|-------------|
+| **Property Listing View** | Displays a grid/list of available properties with filters (location, price, date range). Shows property cards with images, price, and rating. |
+| **Listing Detailed View** | Provides in-depth information for a property: full image gallery, amenities, location map, reviews, and a booking button. |
+| **Simple Checkout View** | Guides the user through the booking process (selecting dates, confirming guest info, reviewing cost, payment). |
+
+### Importance of a User-Friendly Design
+A booking system must be seamless because users are making **time-sensitive and financial decisions**.  
+- A clear design reduces cognitive load and prevents abandonment.  
+- Consistent navigation builds trust in the platform.  
+- Fast, mobile-friendly UI improves conversions.  
+- Visual hierarchy ensures the most important information (price, availability) is immediately visible.  
+### Figma Design Properties
+
+**Color Styles**
+- Primary: #FF5A5F (Airbnb red/pink)  
+- Secondary: #00A699 (teal)  
+- Background: #FFFFFF  
+- Text: #484848  
+- Neutral shades for borders/dividers  
+
+**Typography**
+- Font Family: Sans-serif (e.g., Circular, Airbnb Cereal, or system fonts like Inter/Roboto)  
+- Font Weights: Regular (400), Medium (500), Bold (700)  
+- Font Sizes:  
+  - Heading: 24px–32px  
+  - Subheading: 18px–20px  
+  - Body: 14px–16px  
+  - Small/Caption: 12px  
+
+### Why Identify Design Properties?
+Design properties (colors, typography, spacing) act as a **design system**. They ensure:  
+- Consistency across all pages and components.  
+- Easier collaboration between designers and developers.  
+- Faster iterations when making changes (update one style, propagate everywhere).  
+- Scalability as the project grows.  
+## UI Component Patterns
+
+Planned reusable components include:  
+
+- **Navbar**  
+  - Contains logo, search bar, navigation links, user profile/login.  
+  - Sticky on scroll for accessibility.  
+
+- **Property Card**  
+  - Displays image, title, price, rating, location.  
+  - Clickable to navigate to the property’s detailed view.  
+
+- **Footer**  
+  - Includes links (About, Help, Terms, Privacy).  
+  - Social media icons and contact info.  
+
+Future components to explore:  
+- Date Picker  
+- Booking Summary Widget  
+- Review Card  
+- Filter/Sort Controls  
