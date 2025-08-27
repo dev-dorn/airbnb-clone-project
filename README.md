@@ -169,3 +169,28 @@ Future components to explore:
 - Booking Summary Widget  
 - Review Card  
 - Filter/Sort Controls  
+## Project Roles and Responsibilities
+
+- **Project Manager**  
+  Coordinates tasks, timelines, and communication between the team.  
+
+- **Frontend Developers**  
+  Implement UI components (React/Next.js). Ensure responsive and accessible design.  
+
+- **Backend Developers**  
+  Build APIs, handle authentication, manage data persistence, integrate payment gateways.  
+
+- **Designers**  
+  Create mockups, define color/typography styles, ensure usability.  
+
+- **QA/Testers**  
+  Test features for bugs, usability issues, and performance bottlenecks.  
+
+- **DevOps Engineers**  
+  Manage deployment pipelines, cloud environments, CI/CD, and monitoring.  
+
+- **Product Owner**  
+  Defines vision, requirements, and priorities. Ensures product aligns with business goals.  
+
+- **Scrum Master**  
+  Facilitates agile ceremonies (standups, retrospectives), removes blockers, and supports team efficiency.  
